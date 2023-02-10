@@ -1,0 +1,65 @@
+td, th {
+    padding: 0.9rem;
+}
+
+table {
+    border-spacing: 2px;
+}
+
+table,td, th {
+    border: 1px solid;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.person_details {
+    width: 150px;
+    height: 20px;
+}
+
+.planet_title {
+    margin-bottom: 20px;
+
+}
+
+.form-control {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.form-inline {
+    display: flex;
+    gap: 10px;
+}
+
+.planet_button {
+    font-size: 12px;
+}
+
+.input_information {
+    border: 1px solid black;
+    width: 580px;
+    height: 500px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid black;
+    width: 565px;
+    margin-top: 20px;
+}
+
+legend {
+
+}
+
