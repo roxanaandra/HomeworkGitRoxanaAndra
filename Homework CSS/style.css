@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(17, 5, 144);
+}
+
+.input-group-main__section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    
+    
+}
+
+.container {
+    width: 40vw;
+    max-width: 100%;
+}
+
+.input-group-main_div {
+    background: linear-gradient(to top,rgb(150, 111, 213), rgb(69, 66, 238));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    
+}
+
+.input-group_title {
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 80px;
+}
+
+.input-group_subtitle {
+    color: white;
+    max-width: 460px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+
+input {
+    background-color: white;
+    box-sizing: border-box;
+    width: 500px;
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 500px;
+    height: 120px;
+    background-color: white;
+}
+
+.input-group_button {
+    background-color: rgb(83, 147, 204);
+    width: 500px;
+    height: 40px;
+    color: white;
+    border: 1px solid rgb(37, 36, 36);
+    font-size: 16px;
+    margin-top: 40px;
+    sh
+}
+
+.input-group_inormation {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_input {
+    display: flex;
+    flex-direction: column;
+}
+
