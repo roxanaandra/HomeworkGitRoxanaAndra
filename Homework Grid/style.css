@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Fraunces", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "portocala portocala portocala portocala"
+    "textou textou ou ou"
+    "suc suc textsuc textsuc"
+    "cireasa cireasa mandarina mandarina"
+    "persoana persoana persoana persoana"
+    "lapte farfurie inghetata cub"
+    "footer footer footer footer";
+  height: 420vh;
+  grid-template-rows: 90vh 60vh 60vh 60vh 70vh 60vh 40vh;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+}
+
+.grid-item-1 {
+  grid-area: portocala;
+  display: flex;
+  background-image: url(images/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-item-2 {
+  grid-area: textou;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item-3 {
+  grid-area: ou;
+  background-image: url(images/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: centre;
+}
+
+.grid-item-4 {
+  grid-area: suc;
+  background-image: url(images/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-5 {
+  grid-area: textsuc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.grid-item-6 {
+  grid-area: cireasa;
+  background-image: url(images/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.grid-item-7 {
+  grid-area: mandarina;
+  background-image: url(images/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.grid-item-8 {
+  grid-area: persoana;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.grid-item-9 {
+  grid-area: lapte;
+  background-image: url(images/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-10 {
+  grid-area: farfurie;
+  background-image: url(images/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-item-11 {
+  grid-area: inghetata;
+  background-image: url(images/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-item-12 {
+  grid-area: cub;
+  background-image: url(images/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-13 {
+  grid-area: footer;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-header_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.header_image {
+  width: 160px;
+}
+
+.header_menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 323px;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.header_menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header_button_content {
+  margin-left: 50px;
+}
+
+.header_logo {
+  padding-left: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.header__text {
+  margin-top: 20vh;
+  color: white;
+  font-size: 4rem;
+}
+
+.header_button_content {
+  background-color: white;
+  color: black;
+  border-radius: 60px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  width: 140px;
+  height: 38px;
+  font-weight: 500;
+}
+
+.grid_item_content__title {
+  font-size: 32px;
+  font-weight: 800 bold;
+  width: 260px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.grid_item_content__subtitle {
+  font-size: 22px;
+  color: rgb(71, 70, 69);
+  width: 564px;
+  margin-bottom: 40px;
+}
+
+.grid_item_content__text {
+  color: black;
+  font-weight: 500 bold;
+  font-size: 22px;
+}
+
+.grid_design__content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid_design_content__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.grid_design_content__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(72, 72, 68);
+  max-width: 390px;
+  text-align: center;
+  padding-bottom: 80px;
+  line-height: 1.5em;
+}
+
+.client_image {
+  border-radius: 60px;
+  max-width: 80px;
+}
+
+.grid_testimonials__content {
+  text-align: center;
+}
+
+.grid_testimonials_content__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(69, 69, 69);
+  max-width: 344px;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.grid_testimonials_content__text {
+  font-size: 22;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  font-style: bold;
+  margin-bottom: 10px;
+}
+
+.grid_testimonials_content__textarea {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(130, 130, 127);
+}
+
+.grid_testimonials__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.grid_clients_review__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(77, 76, 76);
+}
+
+.footer_images {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
