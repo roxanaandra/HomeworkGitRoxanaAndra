@@ -6,6 +6,14 @@ body {
   font-family: "Fraunces", sans-serif;
 }
 
+.header__nav__mobile {
+  display: none;
+}
+
+.header__arrow-down {
+  margin-top: 5vh;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -321,4 +329,88 @@ a {
   display: flex;
   justify-content: space-between;
   width: 10%;
+}
+
+@media only screen and (max-width: 640px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "portocala portocala"
+      "ou ou"
+      "textou textou"
+      "suc suc"
+      "textsuc textsuc"
+      "cireasa cireasa"
+      "mandarina mandarina"
+      "persoana persoana"
+      "lapte farfurie"
+      "inghetata cub"
+      "footer footer";
+    grid-template-rows: 120vh 60vh 60vh 60vh 70vh 90vh 90vh 180vh 40vh 40vh 50vh;
+    grid-template-columns: 50vw 50vw;
+  }
+
+
+  #grid_item__content-egg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #grid_item__content-cup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__nav__mobile {
+    display: initial;
+    margin-right: 20px;
+  }
+
+  .header__text {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .grid_design_content__subtitle {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .grid_item_content__subtitle {
+    max-width: 80vw;
+  }
+
+  .grid-item__content {
+    display: flex;
+  }
+
+  .grid_testimonials__div {
+    flex-direction: column;
+  }
+
+  .grid_testimonials_content__subtitle {
+    margin-bottom: 30px;
+  }
+
+  .grid_clients_review__content {
+    margin-bottom: 10vh;
+  }
+
+  .footer_navbar {
+    width: 50%;
+  }
+
+  .footer_images {
+    width: 20%;
+  }
 }
