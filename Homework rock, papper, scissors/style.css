@@ -1,0 +1,104 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.score_counter {
+    margin-top: 5vh;
+    display: flex;
+    gap:100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.game_name {
+    font-weight: 700;
+    font-size: 35px;
+    color:rgb(227, 227, 236);
+    text-align: center;   
+}
+
+#div_game__name {
+    background-color: rgb(54, 54, 105);
+    max-width: 220vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#player {
+    width: 17vh;
+    background-color: rgb(55, 145, 145);
+    height: 7vh;
+    border-radius: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#computer {
+    width: 18vh;
+    background-color: rgb(151, 76, 59);
+    height: 7vh;
+    border-radius: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: rgb(54, 54, 105);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.play_div__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#play_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 16, 10);
+    width: 15vh;
+    height: 5vh;
+    border-radius: 60px;
+    background-color: rgb(218, 220, 74);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.selected-image {
+    border: 5px solid rgb(54, 54, 105);
+    border-radius: 50px;
+}
+
+
+.display-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 3vh;
+    color: rgb(54, 54, 105);
+}
+
+.hide-text {
+    display: none;
+}
