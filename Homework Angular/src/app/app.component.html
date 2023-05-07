@@ -1,0 +1,13 @@
+<div *ngFor="let person of persons">
+  <h3>{{person.name}} - <span [ngStyle]="{color: getColor(person)}">
+    {{getBodyType(person)}}</span>
+    <button (click)="onClick(person)">More details</button>
+  </h3>
+</div>
+
+<div *ngIf="currentPerson">
+  <p>Name: {{currentPerson.name}}</p>
+  <p>Age: {{currentPerson.age}}</p>
+  <p>Height: {{currentPerson.height}}</p>
+  <p>Weight: {{currentPerson.weight}}</p>
+</div>
